@@ -10,7 +10,7 @@ export const NewEntry = () => {
 
   const [touched, setTouched] = useState(false);
   const [inputValue, setInputValue] = useState("");
-
+  console.log("🤖 [LOG] ", isAddingEntry);
   const onTextFieldChange = (
     event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
